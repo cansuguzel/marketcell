@@ -1,0 +1,9 @@
+# .gitignore dosyası oluştur
+cat > .gitignore << 'EOF'
+venv/
+__pycache__/
+*.pyc
+.env
+*.sqlite3
+.DS_Store
+EOF
